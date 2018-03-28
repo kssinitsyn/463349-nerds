@@ -476,7 +476,7 @@ a {
 
 /*Партнеры*/
 .partners {
-  margin-bottom: 80px;
+  margin-bottom: 84px;
 }
 
 .partners-list {
@@ -1085,13 +1085,10 @@ box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 /*Футер Адрес*/
 
 .map {
-  position: relative;
-}
-
-.map img {
-  min-width: 1200px;
-  width: 100%;
-  height: auto;
+  background-image: url('../img/map-marker.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 416px;
 }
 
 .adress-inner {
@@ -1103,7 +1100,7 @@ box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 
 .address {
   position: absolute;
-  padding: 53px 50px;
+  padding: 48px 50px;
   background-color: #ffffff;
   top: 54px;
   left: 20px;
@@ -1120,7 +1117,7 @@ box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 
 .address p:nth-child(2) {
   margin: 0;
-  padding-top: 25px;
+  padding-top: 24px;
   line-height: 18px;
   color: #666666;
   max-width: 205px;
@@ -1128,13 +1125,13 @@ box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 
 .address p:nth-child(3) {
   margin: 0;
-  padding-top: 15px;
+  padding-top: 19px;
   line-height: 18px;
   color: #666666;
 }
 
 .button-adress {
-  margin-top: 35px;
+  margin-top: 40px;
   max-width: 220px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1179,6 +1176,11 @@ footer p:nth-child(4) {
   margin: 0;
   margin-left: 140px;
   margin-top: -15px;
+}
+
+.lets-friend p:nth-child(2) {
+  padding-top: -4px;
+
 }
 
 .social-items {
