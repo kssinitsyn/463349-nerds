@@ -1225,8 +1225,8 @@ footer p:nth-child(4) {
 }
 
 .modal-mail {
-  top: 20px;
-  left: 241px;
+  top: 25%;
+  left: 25%;
 }
 
 .button-close {
