@@ -1,5 +1,4 @@
 /*Общие правила*/
-
 body {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 16px;
@@ -57,7 +56,6 @@ a {
 }
 
 /*Шапка(навигация)*/
-
 .main-header {
   background-color: #eeeeee;
 }
@@ -269,7 +267,6 @@ a {
 }
 
 /*Продукты */
-
 .products-list {
   padding: 0 0 80px 0;
   border-bottom: 2px solid;
@@ -368,7 +365,6 @@ a {
 }
 
 /*О нас*/
-
 .about {
   display: flex;
   flex-direction: row;
@@ -551,8 +547,6 @@ a {
 }
 
 .filter-item legend {
-  /*margin: 0;
-  padding: 0;*/
   padding-top: 7px;
   font-size: 18px;
   line-height: 24px;
@@ -671,17 +665,6 @@ a {
 .filter-input {
   color: #283136;
 }
-
-/*.filter-input:hover+label, .filter-input:focus+label {
-  font-size: 16px;
-  line-height: 20px;
-  color: #000000;
-}
-
-.filter-input:disabled+label {
-  color: #283136;
-  opacity: 0.3;
-}*/
 
 .filter-option {
   margin-bottom: 18px;
@@ -1033,7 +1016,6 @@ a {
 }
 
 /*Пагинация*/
-
 .pagination-item a {
   font-size: 16px;
   line-height: 18px;
@@ -1083,7 +1065,6 @@ box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
 /*Футер Адрес*/
-
 .map {
   background-image: url('../img/map-marker.png');
   background-repeat: no-repeat;
@@ -1139,7 +1120,6 @@ box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
 /*Футер*/
-
 footer b {
   font-size: 36px;
   line-height: 36px;
@@ -1206,9 +1186,9 @@ footer p:nth-child(4) {
 }
 
 /*Модальное окно*/
-
 .modal {
   position: fixed;
+  z-index: 101;
   max-width: 960px;
   background-color: #ffffff;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.75);
@@ -1233,11 +1213,12 @@ footer p:nth-child(4) {
 
 .button-close {
   position: absolute;
-  top: 78px;
+  top: 80px;
   right: 92px;
   width: 22px;
   height: 22px;
   font-size: 0;
+  background-color: white;
   border: 0;
   cursor: pointer;
 }
@@ -1245,8 +1226,8 @@ footer p:nth-child(4) {
 .button-close::before, .button-close::after {
   content: "";
   position: absolute;
-  top: 15px;
-  right: -6px;
+  top: 10px;
+  right: -2px;
   width: 26px;
   height: 3px;
   background-color: #fecccd;
@@ -1317,4 +1298,9 @@ footer p:nth-child(4) {
   display: flex;
   flex-direction: row;
   padding-bottom: 24px;
+}
+
+.button-submit {
+  height: 54px;
+  width: 258px;
 }
