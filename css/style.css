@@ -156,6 +156,7 @@ a {
 .slider {
   position: relative;
   background-color: #eeeeee;
+  margin-bottom: 80px;
 }
 
 .slider-controls {
@@ -794,12 +795,19 @@ a {
 }
 
 .button-submit-filter {
-  margin-top: 34px;
-  text-transform: uppercase;
+  display: block;
   width: 260px;
   padding: 16px;
+  font-size: 16px;
+  line-height: 18px;
   color: #000000;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
   background-color: #eeeeee;
+  border-radius: 3px;
+  border: none;
+  margin-top: 5px;
 }
 
 .button-submit-filter:hover {
