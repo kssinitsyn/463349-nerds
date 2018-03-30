@@ -1225,10 +1225,14 @@ footer p:nth-child(4) {
   background-color: #e74246;
 }
 
-.social-items:active {
+.social-items:active{
   color: rgba(255, 255, 255, 0.3);
   background-color: #d7373b;
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+
+.social-items svg:active {
+  opacity: 0.3;
 }
 
 /*Модальное окно*/
@@ -1280,6 +1284,14 @@ footer p:nth-child(4) {
   width: 26px;
   height: 3px;
   background-color: #fecccd;
+}
+
+.button-close:hover::before, .button-close:hover::after {
+  background-color: #fb565a;
+}
+
+.button-close:active::before, .button-close:active::after {
+  background-color: #ffeeee;
 }
 
 .button-close::before {
@@ -1342,6 +1354,41 @@ footer p:nth-child(4) {
   width: 760px;
   height: 118px;
 }
+
+input[type="text"]:hover, textarea:hover {
+  border-color: #b4b9bb;
+  
+}
+
+input[type="text"]:focus, textarea:focus {
+  border:2px solid #000000;
+}
+
+input[type="text"]:invalid, textarea:invalid{
+  border:2px solid #e74246;
+}
+
+
+input[type="text"]:focus::-webkit-input-placeholder { color: #000000; }
+input[type="text"]:focus:-ms-input-placeholder { color: #000000; }
+input[type="text"]:focus::-ms-input-placeholder { color: #000000; }
+input[type="text"]:focus::placeholder { color: #000000; } 
+
+textarea:focus::-webkit-input-placeholder { color: #000000; }
+textarea:focus:-ms-input-placeholder { color: #000000; }
+textarea:focus::-ms-input-placeholder { color: #000000; }
+textarea:focus::placeholder { color: #000000; } 
+
+input[type="text"]:invalid::-webkit-input-placeholder { color: #e74246; }
+input[type="text"]:invalid:-ms-input-placeholder { color: #e74246; }
+input[type="text"]:invalid::-ms-input-placeholder { color: #e74246; }
+input[type="text"]:invalid::placeholder { color: #e74246; } 
+
+textarea:invalid::-webkit-input-placeholder { color: #e74246; }
+textarea:invalid:-ms-input-placeholder { color: #e74246; }
+textarea:invalid::-ms-input-placeholder { color: #e74246; }
+textarea:invalid::placeholder { color: #e74246; } 
+
 
 .letter-wrapper {
   display: flex;
