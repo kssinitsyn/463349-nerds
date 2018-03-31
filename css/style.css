@@ -479,6 +479,7 @@ input[type="radio"].visually-hidden {
   color: #283136;
   padding-top: 27px;
   text-align: left;
+  vertical-align: top;
 }
 
 .stats-item {
