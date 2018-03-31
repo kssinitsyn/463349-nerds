@@ -1035,21 +1035,22 @@ input[type="radio"].visually-hidden {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   bottom: 0;
   width: 361px;
   min-height: 230px;
   max-height: 574px;
 }
 
-.price-wrapper {
+/* .price-wrapper {
   padding: 0;
   margin: 0;
   text-align: center;
   max-width: 200px;
   min-height: 230px;
-}
+} */
 
-.price-wrapper h3 {
+.price h3 {
   padding: 0;
   margin: 0;
   padding-top: 27px;
@@ -1058,7 +1059,7 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
 }
 
-.price-wrapper p {
+.price p {
   padding: 0;
   margin: 0;
   padding-top: 13px;
