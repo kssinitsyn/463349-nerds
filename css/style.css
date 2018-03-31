@@ -315,7 +315,7 @@ input[type="radio"].visually-hidden {
 
 .products-item p {
   padding-left: 4px;
-  padding-bottom: 15px;
+  padding-bottom: 13px;
   max-width: 260px;
   color: #283136;
 }
@@ -391,7 +391,7 @@ input[type="radio"].visually-hidden {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-bottom: 67px;
+  margin-bottom: 72px;
 }
 
 .about li::before {
@@ -463,7 +463,7 @@ input[type="radio"].visually-hidden {
 .stats caption {
   text-transform: uppercase;
   font-weight: 700;
-  padding-top: 30px;
+  padding-top: 28px;
 }
 
 .stats td {
@@ -489,12 +489,13 @@ input[type="radio"].visually-hidden {
   margin: -3px;
   font-weight: 400;
   font-size: 30px;
+  top: -0.4em;
 }
 
 /*Партнеры*/
 
 .partners {
-  margin-bottom: 84px;
+  margin-bottom: 80px;
 }
 
 .partners-list {
