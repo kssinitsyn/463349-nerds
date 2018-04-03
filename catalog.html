@@ -5,14 +5,10 @@
   <meta charset="utf-8">
   <title>Магазин дизайн-студии Нёрдс</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
-<<<<<<< HEAD
   <link rel="stylesheet" href="css/normalize-min.css">
-  <link rel="stylesheet" href="css/style.css">
-=======
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style-min.css">
->>>>>>> 85a26fcf509264fe1d42c801555f853cb66a7abc
 </head>
+
 <body class="inner-page">
   <header class="main-header">
     <!-- Навигация -->
@@ -261,17 +257,17 @@
       <div class="contacts-wrapper">
         <p>
           <label for="name">Ваше имя:</label>
-          <input type="text" id="name" placeholder="Представьтесь, пожалуйста">
+          <input type="text" id="name" name="login" placeholder="Имя Фамилия">
         </p>
         <p>
           <label for="email">Ваш e-mail:</label>
-          <input type="text" id="email" placeholder="Для отправки ответа">
+          <input type="text" id="email" name="email" placeholder="email@example.com">
         </p>
       </div>
       <div class="letter-wrapper">
         <p>
           <label for="letter">Текст письма:</label>
-          <textarea id="letter" placeholder="В свободной форме"></textarea>
+          <textarea id="letter" name="message" placeholder="В свободной форме"></textarea>
         </p>
       </div>
       <button type="submit" class="button button-submit">Отправить</button>
