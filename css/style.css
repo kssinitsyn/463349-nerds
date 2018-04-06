@@ -619,15 +619,6 @@ input[type="radio"].visually-hidden {
   min-height: 180px;
 }
 
-.partners-item:first-child,
-.partners-item:last-child {
-  /* -webkit-box-flex: 0;
-  -webkit-flex: 0 1 280px;
-      -ms-flex: 0 1 280px; */
-  flex: 0 0 100px;
-  /* min-height: 194px; */
-}
-
 .partners-item a {
   display: block;
   opacity: 0.2;
@@ -1067,6 +1058,8 @@ input[type="radio"].visually-hidden {
 .catalog {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .catalog-colums {
