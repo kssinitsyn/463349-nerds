@@ -86,21 +86,17 @@ input[type="radio"].visually-hidden {
   padding: 50px 20px 0;
   margin: 0 auto;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
 }
 
 .inner-page .main-navigation {
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -110,23 +106,18 @@ input[type="radio"].visually-hidden {
   padding: 0;
   margin-top: 10px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   list-style: none;
@@ -147,11 +138,9 @@ input[type="radio"].visually-hidden {
 
 .cart {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   list-style: none;
@@ -330,15 +319,12 @@ input[type="radio"].visually-hidden {
   border-bottom: 2px solid;
   border-color: #eeeeee;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   list-style: none;
@@ -441,19 +427,15 @@ input[type="radio"].visually-hidden {
 
 .about {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 77px;
@@ -480,7 +462,6 @@ input[type="radio"].visually-hidden {
   margin-top: -30px;
   margin-right: -10px;
   padding: 0;
-  -webkit-flex-basis: 360px;
   -ms-flex-preferred-size: 360px;
   flex-basis: 360px;
 }
@@ -573,26 +554,20 @@ input[type="radio"].visually-hidden {
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-flex-basis: 1160px;
   -ms-flex-preferred-size: 1160px;
   flex-basis: 1160px;
 }
@@ -601,19 +576,15 @@ input[type="radio"].visually-hidden {
   position: relative;
   padding: 0;
   -webkit-box-flex: 0;
-  -webkit-flex: 0 1 300px;
   -ms-flex: 0 1 300px;
   flex: 0 1 260px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   min-height: 180px;
@@ -952,19 +923,15 @@ input[type="radio"].visually-hidden {
 
 .sort {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-flex-basis: 760px;
   -ms-flex-preferred-size: 760px;
   flex-basis: 760px;
   margin-bottom: 52px;
@@ -972,10 +939,8 @@ input[type="radio"].visually-hidden {
 
 .buttons-sort {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-top: 10px;
@@ -1058,14 +1023,16 @@ input[type="radio"].visually-hidden {
 .catalog {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 .catalog-colums {
   margin-top: 47px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 58px;
@@ -1076,10 +1043,8 @@ input[type="radio"].visually-hidden {
   padding: 0;
   margin-bottom: 25px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   list-style: none;
@@ -1120,7 +1085,6 @@ input[type="radio"].visually-hidden {
 
 .catalog-item:hover .price {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -1161,15 +1125,12 @@ input[type="radio"].visually-hidden {
   position: absolute;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
@@ -1233,7 +1194,6 @@ input[type="radio"].visually-hidden {
   padding: 0;
   list-style: none;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
@@ -1242,15 +1202,12 @@ input[type="radio"].visually-hidden {
   min-width: 50px;
   height: 50px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   margin-right: 10px;
@@ -1361,15 +1318,12 @@ footer p:nth-child(4) {
   padding-top: 73px;
   padding-bottom: 80px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   margin: 0 auto;
@@ -1380,14 +1334,11 @@ footer p:nth-child(4) {
   padding: 0;
   width: 260px;
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   list-style: none;
@@ -1406,15 +1357,12 @@ footer p:nth-child(4) {
 
 .social-items {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
-  -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
   margin: 0;
@@ -1452,15 +1400,12 @@ footer p:nth-child(4) {
 
 .feedback {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 70px 90px 80px 100px;
@@ -1529,11 +1474,9 @@ footer p:nth-child(4) {
 
 .contacts-wrapper {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   width: 760px;
@@ -1543,7 +1486,6 @@ footer p:nth-child(4) {
 
 .feedback label {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   padding-bottom: 11px;
@@ -1555,7 +1497,6 @@ footer p:nth-child(4) {
 
 .feedback input[type="text"] {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   font-size: 16px;
@@ -1573,7 +1514,6 @@ footer p:nth-child(4) {
 
 .feedback textarea {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   font-size: 16px;
@@ -1591,12 +1531,10 @@ footer p:nth-child(4) {
 
 .letter-wrapper {
   display: -webkit-box;
-  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
   padding-bottom: 24px;
