@@ -1,3 +1,7 @@
-# Личный проект «Нёрдс»
+# Проект - «Nerds»
+Исполнитель: [Кирилл Синицын](https://github.com/kssinitsyn/).
 
-* Студент: [Kirill Sinitsyn](https://up.htmlacademy.ru/htmlcss/20/user/463349).
+Дизайн предоставлен: [HTML Academy](https://htmlacademy.ru/).
+
+## Использованный стек:
+ - HTML5, CSS3 (Flexbox), JS(ES5)
